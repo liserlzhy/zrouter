@@ -1,0 +1,27 @@
+{
+  "name": "zrouter",
+  "version": "1.0.0",
+  "description": "spa router",
+  "main": "index.js",
+  "author": "liserl",
+  "license": "MIT",
+  "scripts": {
+    "build": "node build/build.js"
+  },
+  "dependencies": {
+    "path-to-regexp": "1.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "25.0.2",
+    "@rollup/plugin-node-resolve": "15.1.0",
+    "prettier": "2.8.8",
+    "rollup": "3.26.2",
+    "rollup-plugin-buble": "0.19.8",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-replace": "2.0.0",
+    "rollup-plugin-server": "^0.7.0",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "terser": "4.2.0",
+    "typescript": "^5.1.6"
+  }
+}
